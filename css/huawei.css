@@ -1,0 +1,4136 @@
+ *{
+    margin:0;
+    padding :0;
+}
+
+body{
+    width: 1519px;
+    margin: auto auto;
+}
+
+.poster{
+    position: relative;
+    display: block;
+}
+
+.poster .bcg_pic{
+    width: 1519px;
+    height: 90px;
+    background: url(../img/huawei/header/long.jpg);
+}
+
+.poster .btn{
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header{
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0;
+}
+/* 设置广告条 */
+
+/* 设置导行条背景颜色位置高度等属性 */
+.nack{
+    background-color: rgb(249, 249, 249);
+    /* width: 100%; */
+    width: 1519px;
+    margin: 0 auto;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    z-index: 23;
+    }
+
+/* 设置左导航条 */
+.nack .l{
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 9px 0px 0px 170px;
+}
+
+.nack .l a{
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+    font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    
+}
+
+/* 设置右导航条 */
+.nack .r{
+    padding: 9px 0px 0px 0px;
+    margin: 0;
+    position: absolute;
+    top: 9px;
+    right: 620px;
+    color: rgb(164, 164, 164);
+    text-decoration: none
+}
+
+.nack .r a{
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+    font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    text-align: center;
+}
+
+/* 设置伪类 */
+.nack a:hover{
+    color: rgb(202,21,143);
+}
+
+/* .nack .r a:hover{
+    color: rgb(202,21,143);
+} */
+
+.nack .r .box1{
+    width: 72px;
+    height: 24px;
+    border-right: rgb(164, 164, 164) solid 1.5px;
+    /* padding-right :1px; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+}
+
+.nack .r .box2{
+    width: 55px;
+    height: 24px;
+    border-right: rgb(164, 164, 164) solid 1.5px;
+    position: absolute;
+    top: 0px;
+    left: 82px;
+}
+
+.nack .r .box3{
+    z-index: 2;
+    width: 60px;
+    height: 24px;
+    padding-left: 5px;
+    border-right: rgb(164, 164, 164) solid 1.5px;
+    position: absolute;
+    top: 0px;
+    left: 135px;
+}
+
+.nack .r .box3 .k{
+    padding-left: 6px;
+}
+
+.nack .r .box3 .y1{
+    display: none;
+    background-color:  rgb(249, 249, 249);
+    padding-left: 6px;
+}
+
+.nack .r .box3:hover .y1{
+    display: block;
+}
+
+.nack .r .box4{
+    width: 54px;
+    height: 31px;
+    position: absolute;
+    top: 0px;
+    left: 209px;
+    /* border: #cb242b 1px solid; */
+}
+
+
+.nack .r .box4 .wz{
+    width: 54px;
+    height: 24px;
+    padding-left: 5px;
+    border-right: rgb(164, 164, 164) solid 1.5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.nack .r .box4 .ww p{
+    z-index: 1;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.nack .r .box4 .ww{
+    display: none;
+    width: 568px;
+    height: 110px;
+    position: absolute;
+    top: 30px;
+    left: -514px;
+}
+
+.nack .r .box4:hover .ww{
+    display:block ;
+}
+
+.nack .r .box4 .ww .sc{
+    background-color:rgb(249,249,249);
+    width: 140px;
+    height: 120px;
+    padding-left: 20px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+.nack .r .box4 .ww .sc .sy{
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+
+.nack .r .box4 .ww .pd{
+    background-color:rgb(249,249,249);
+    width: 70px;
+    height: 110px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    left:140px;
+}
+
+.nack .r .box4 .ww .cp{
+    background-color:rgb(249,249,249);
+    width: 130px;
+    height: 110px;
+    padding-right: 20px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    left:210px;
+}
+
+.nack .r .box4 .ww .cp .zj{
+    float: right;
+}
+
+.nack .r .box4 .ww .cp .ty{
+    float: right;
+}
+
+.nack .r .box4 .ww .cp .zs{
+    float: right;
+}
+
+.nack .r .box4 .ww .zz{
+    background-color:rgb(249,249,249);
+    width: 120px;
+    height: 110px;
+    padding-right: 20px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    left:360px;
+}
+
+.nack .r .box4 .ww .zz .yj{
+    float: right;
+}
+
+.nack .r .box4 .ww .zz .bg{
+    float: right;
+}
+
+.nack .r .box4 .ww .hy{
+    background-color:rgb(249,249,249);
+    width: 48px;
+    height: 110px;
+    padding-top: 10px;
+    padding-right: 20px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+.nack .r .box4 .wz:hover+.ww{
+    color:red;
+}
+
+.nack .r .box5{
+    width: 55px;
+    height: 30px;
+    position: absolute;
+    left: 262px;
+    top: 0px;
+}
+
+.nack .r .box5 .sj{
+    width: 40px;
+    height: 24px;
+    padding-right: 5px;
+    border-right: rgb(164, 164, 164) solid 1.5px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.nack .r .box5 .ew{
+    width: 310px;
+    height: 340px;
+    background:white;
+    position: absolute;
+    top: 30px;
+    left: -253px;
+    display: none;
+}
+
+.nack .r .box5:hover .ew{
+    display: block;
+}
+
+.nack .r .box5 .ew .app{
+    border-bottom:rgb(229, 229, 229) solid 1px;
+    width: 310px;
+    height: 170px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.nack .r .box5 .ew .app .e1{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+}
+
+.nack .r .box5 .ew .app .xr{
+    position: absolute;
+    top: 27px;
+    right: 50px;
+}
+
+.nack .r .box5 .ew .app .xr h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.nack .r .box5 .ew .app .xr p{
+    color: #cb242b;
+    line-height: 16px;
+    font-size: 10px;
+}
+
+.nack .r .box5 .ew .app .jqr{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 100px;
+    right: 105px;
+}
+
+.nack .r .box5 .ew .gzh{
+    border-bottom:rgb(229, 229, 229) solid 1px;
+    width: 310px;
+    height: 170px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.nack .r .box5 .ew .gzh .e2{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+}
+
+.nack .r .box5 .ew .gzh .sys{
+    position: absolute;
+    top: 27px;
+    right: 37px;
+}
+
+.nack .r .box5 .ew .gzh .sys h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.nack .r .box5 .ew .gzh .sys p{
+    color: #cb242b;
+    line-height: 16px;
+    font-size: 10px;
+}
+
+.nack .r .box5 .ew .gzh .wc{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 85px;
+    right: 105px;
+}
+
+.nack .r .box6{
+    width: 93px;
+    height: 30px;
+    position: absolute;
+    left: 316px;
+    top: 0px;
+}
+
+.nack .r .box6 .shopper{
+    
+    width: 90px;
+    height: 24px;
+    position: absolute;
+    top: 0px;
+    left: 14px;
+}
+
+.nack .r .box6 .shopper p img{
+    width:13px;
+    height: 14px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+.nack .r .box6 .shopper p a{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.nack .r .box6 .shopping{
+    background-color: #fff;
+    display: none;
+    width: 460px;
+    height: 230px;
+    position: absolute;
+    top: 30px;
+    right: -1px;
+}
+
+.nack .r .box6:hover .shopping{
+    display: block;
+}
+
+.nack .r .box6 .shopping .s{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 180px;
+    top: 50px;
+}
+
+.nack .r .box6 .shopping .nd{
+    position: absolute;
+    left: 120px;
+    top: 160px;
+}
+
+.cv{
+    min-width: 1200px;
+    height: 41px;
+    padding: 18px 0 15px 0;
+    background-color: #fff;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+}
+
+.cv .logo .left{
+    width: 806px;
+    height: 40px;
+    position: relative;
+}
+
+.cv .logo .left .vh{
+    width: 270px;
+    height: 36px;
+    position: relative;
+}
+
+.cv .logo .left .vh .vm{
+    width: 102px;
+    height: 36px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.cv .logo .left .vh em{
+    width: 1px;
+    height: 18px;
+    margin: 9px 8px;
+    background: #030000;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.cv .logo .left .vh .hu{
+    width: 114px;
+    height: 36px;
+    position: absolute;
+    left: 112px;
+    top: 0px;
+}
+
+.cv .logo .left .tip{
+    width: 531px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.cv .logo .left .tip .sj{
+    width: 32px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.cv .logo .left .sj a{
+    width: 32px;
+    height: 40px;
+    font-size: 16px;
+    color: #3a3a3a;
+    position: relative;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.cv .logo .left .sj a:hover{
+    font-size: 16px;
+    color: red;
+    position: relative;
+    line-height: 40px;
+    text-decoration:underline;
+}
+
+.cv .logo .left .sj:hover .qbsj{
+    display: block;
+    height: 365px;
+    animation: sj 0.5s;
+}
+
+@keyframes sj{
+    0%{
+        height: 0px;
+    }
+
+    100%{
+        height: 365px;
+    }
+}
+
+.cv .logo .left .sj .qbsj{
+    padding: 0px 141.6px;
+    display: none;
+    width: 1236px;
+    height: 365px;
+    background-color: #fff;
+    position: absolute;
+    left: -435px;
+    top: 39px;
+    overflow: hidden;
+}
+
+.cv .logo .left .sj .qbsj .a1{
+    padding-right: 16px;
+}
+
+.cv .logo .left .sj .qbsj .p1{
+    position: absolute;
+    top: 25px;
+}
+
+.cv .logo .left .sj .qbsj .a1:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .sj .qbsj p{
+    padding:0 16px;
+}
+
+.cv .logo .left .sj .qbsj a{
+    padding:0 16px;
+}
+
+.cv .logo .left .sj .qbsj a:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .sj .qbsj .gzsj{
+    
+    width: 1320px;
+    height: 270px;
+    position: absolute;
+    top: 80px;
+    left: 95px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .prop30{
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .prop30 .tp{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .prop30 .pro{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .prop30 .wz{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .prop30 .wz a{
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .prop30 .wz p{
+    position: absolute;
+    text-align: center;
+    color:red;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .p30{
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .p30 .tp{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .p30 .tp .p3{
+    width: 100%;
+    height: 100%;   
+}
+
+.cv .logo .left .sj .qbsj .gzsj .p30 .wz{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .p30 .wz a{
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .p30 .wz p{
+    position: absolute;
+    text-align: center;
+    color:red;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mate20pro{
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 440px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mate20pro .tp{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mate20pro .tp .p3{
+    width: 100%;
+    height: 100%;   
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mate20pro .wz{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mate20pro .wz a{
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mate20pro .wz p{
+    position: absolute;
+    text-align: center;
+    color:red;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .nova5{
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 660px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .nova5 .tp{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .nova5 .tp .p3{
+    width: 100%;
+    height: 100%;   
+}
+
+.cv .logo .left .sj .qbsj .gzsj .nova5 .wz{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .nova5 .wz a{
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .nova5 .wz p{
+    position: absolute;
+    text-align: center;
+    color:red;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .cx{
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 880px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .cx .tp{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .cx .tp .p3{
+    width: 100%;
+    height: 100%;   
+}
+
+.cv .logo .left .sj .qbsj .gzsj .cx .wz{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .cx .wz a{
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .cx .wz p{
+    position: absolute;
+    text-align: center;
+    color:red;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mm{
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mm .tp{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mm .tp .p3{
+    width: 100%;
+    height: 100%;   
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mm .wz{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mm .wz a{
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .sj .qbsj .gzsj .mm .wz p{
+    position: absolute;
+    text-align: center;
+    color:red;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.cv .logo .left .dn{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    transform:15s;
+}
+
+.cv .logo .left .dn:hover .bj{
+    display: block;
+    animation: sj 0.5s;
+}
+
+.cv .logo .left .dn a{
+    font-size: 16px;
+    color: #3a3a3a;
+    position: relative;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.cv .logo .left .dn a:hover{
+    font-size: 16px;
+    color: red;
+    position: relative;
+    line-height: 40px;
+    text-decoration:underline;
+}
+
+.cv .logo .left .dn .bj{
+    padding: 0px 141.6px;
+    display: none;
+    width: 1236px;
+    height: 365px;
+    background-color: #fff;
+    position: absolute;
+    left: -487px;
+    top: 39px;
+    overflow: hidden;
+}
+
+.cv .logo .left .dn .bj .a1{
+    padding-right: 16px;
+}
+
+.cv .logo .left .dn .bj .p1{
+    position: absolute;
+    top: 25px;
+}
+
+.cv .logo .left .dn .bj .a1:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .dn .bj p{
+    padding:0 16px;
+}
+
+.cv .logo .left .dn .bj a{
+    padding:0 16px;
+}
+
+.cv .logo .left .dn .bj a:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .dn .gzdn{
+    width: 1320px;
+    height: 270px;
+    position: absolute;
+    top: 80px;
+    left: 135px;
+}
+
+.cv .logo .left .dn .gzdn .xpro{
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .xpro .tp{
+    width: 120px;
+    height: 120px;
+    padding: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .xpro .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .dn .gzdn .xpro .wz{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .xpro .wz a{
+    width: 167px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .xpro .wz p{
+    width: 168px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;              
+}
+
+.cv .logo .left .dn .gzdn .h14{
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.cv .logo .left .dn .gzdn .h14 .tp{
+    width: 120px;
+    height: 120px;
+    padding: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .h14 .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .dn .gzdn .h14 .wz{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .h14 .wz a{
+    width: 167px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .h14 .wz p{
+    width: 168px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;              
+}
+
+.cv .logo .left .dn .gzdn .e{
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.cv .logo .left .dn .gzdn .e .tp{
+    width: 120px;
+    height: 120px;
+    padding: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .e .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .dn .gzdn .e .wz{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .e .wz a{
+    width: 167px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .e .wz p{
+    width: 168px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;              
+}
+
+.cv .logo .left .dn .gzdn .d{
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.cv .logo .left .dn .gzdn .d .tp{
+    width: 120px;
+    height: 120px;
+    padding: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .d .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .dn .gzdn .d .wz{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .d .wz a{
+    width: 167px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .d .wz p{
+    width: 168px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;              
+}
+
+.cv .logo .left .dn .gzdn .ly{
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+
+.cv .logo .left .dn .gzdn .ly .tp{
+    width: 120px;
+    height: 120px;
+    padding: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .ly .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .dn .gzdn .ly .wz{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .ly .wz a{
+    width: 167px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .dn .gzdn .ly .wz p{
+    width: 168px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;              
+}
+
+.cv .logo .left .cd{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 152px;
+}
+
+.cv .logo .left .cd:hover .gzcd{
+    display: block;
+    animation: sj 0.5s;
+}
+
+.cv .logo .left .cd a{
+    font-size: 16px;
+    color: #3a3a3a;
+    position: relative;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.cv .logo .left .cd a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.cv .logo .left .cd .gzcd{
+    padding: 0px 141.6px;
+    display: none;
+    width: 1236px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    left: -587px;
+    top: 39px;
+    overflow: hidden;
+}
+
+.cv .logo .left .cd .gzcd .a1{
+    padding-right: 16px;
+}
+
+.cv .logo .left .cd .gzcd .p1{
+    position: absolute;
+    top: 25px;
+}
+
+.cv .logo .left .cd .gzcd .a1:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .cd .gzcd p{
+    padding:0 16px;
+}
+
+.cv .logo .left .cd .gzcd a{
+    padding:0 16px;
+}
+
+.cv .logo .left .cd .gzcd a:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .cd .gzcd .qbcd{
+    width: 1320px;
+    height: 220px;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .pro10{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .pro10 .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .pro10 .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .pro10 .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .pro10 .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .cd .gzcd .qbcd .pro10 .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m6{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m6 .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m6 .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m6 .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m6 .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m6 .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .watch{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .watch .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .watch .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .watch .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .watch .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .cd .gzcd .qbcd .watch .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m5{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m5 .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color:#fff; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m5 .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m5 .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m5 .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .cd .gzcd .qbcd .m5 .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .sh{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .sh .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color:#fff; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .sh .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .sh .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .sh .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .cd .gzcd .qbcd .sh .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .et{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 750px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .et .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color:#fff; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .et .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .et .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .et .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .cd .gzcd .qbcd .et .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .hc{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .hc .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color:#fff; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .hc .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .hc .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .cd .gzcd .qbcd .hc .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .cd .gzcd .qbcd .hc .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj{
+    width: 64px;
+    height: 40px;
+    /* margin-right: 20px; */
+    /* background-color: yellow; */
+    position: absolute;
+    top: 0px;
+    left: 252px;
+}
+
+.cv .logo .left .jj:hover .qbjj{
+    display: block;
+    animation: sj 0.5s;
+}
+
+.cv .logo .left .jj a{
+    font-size: 16px;
+    color: #3a3a3a;
+    position: relative;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.cv .logo .left .jj a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.cv .logo .left .jj .qbjj{
+    padding: 0px 141.6px;
+    display: none;
+    width: 1236px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    left: -687px;
+    top: 39px;
+    overflow: hidden;
+}
+
+.cv .logo .left .jj .qbjj .a1{
+    padding-right: 16px;
+}
+
+.cv .logo .left .jj .qbjj .p1{
+    position: absolute;
+    top: 25px;
+}
+
+.cv .logo .left .jj .qbjj .a1:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .jj .qbjj p{
+    padding:0 16px;
+}
+
+.cv .logo .left .jj .qbjj a{
+    padding:0 16px;
+}
+
+.cv .logo .left .jj .qbjj a:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .jj .qbjj .gzjj{
+    width: 1200px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .q2{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .q2 .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .q2 .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .q2 .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .q2 .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .q2 .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .ai .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .wz{
+    width: 150px;
+    height: 70px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .wz p{
+    width: 150px;
+    height: 30px;
+    /* background-color: orange; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .la .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .wify2 .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .jh{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .jh .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .jh .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .jh .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .jj .qbjj .gzjj .jh .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .jj .qbjj .gzjj .jh .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .pj{
+    width: 32px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 336px;
+}
+
+.cv .logo .left .pj:hover .qbpj{
+    display: block;
+    animation: sj 0.5s;
+}
+
+.cv .logo .left .pj a{
+    font-size: 16px;
+    color: #3a3a3a;
+    position: relative;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.cv .logo .left .pj a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.cv .logo .left .pj .qbpj{
+    padding: 0px 141.6px;
+    display: none;
+    width: 1236px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    left: -771px;
+    top: 39px;
+    overflow: hidden;
+}
+
+.cv .logo .left .pj .qbpj .a1{
+    padding-right: 16px;
+}
+
+.cv .logo .left .pj .qbpj .p1{
+    position: absolute;
+    top: 25px;
+}
+
+.cv .logo .left .pj .qbpj .a1:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .pj .qbpj p{
+    padding:0 16px;
+}
+
+.cv .logo .left .pj .qbpj a{
+    padding:0 16px;
+}
+
+.cv .logo .left .pj .qbpj a:hover{
+    text-decoration: none;
+}
+
+.cv .logo .left .pj .qbpj .gzpj{
+    width: 1200px;
+    height: 220px;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .kc{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .kc .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .kc .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .kc .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .kc .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .pj .qbpj .gzpj .kc .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zc{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zc .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zc .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zc .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zc .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zc .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .bhs{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .bhs .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .bhs .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .bhs .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .bhs .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .pj .qbpj .gzpj .bhs .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .fl{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .fl .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .fl .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .fl .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .fl .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .pj .qbpj .gzpj .fl .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .dq{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .dq .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .dq .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .dq .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .dq .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .pj .qbpj .gzpj .dq .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zp{
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 750px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zp .tp{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zp .tp img{
+    width: 100%;
+    height: 100%;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zp .wz{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zp .wz a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;           
+}
+
+.cv .logo .left .pj .qbpj .gzpj .zp .wz p{
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.cv .logo .left .xl{
+    width: 61px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 388px;
+}
+.cv .logo .left .xl a{
+    font-size: 16px;
+    color: #3a3a3a;
+    position: relative;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.cv .logo .left .xl a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.cv .logo .left .qyg{
+    width: 48px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 468px;
+}
+.cv .logo .left .qyg a{
+    font-size: 16px;
+    color: #3a3a3a;
+    position: relative;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.cv .logo .left .qyg a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.cv .logo .right{
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.cv .logo .right .search{
+    width: 320px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+}
+
+.cv .logo .right .search .f{
+    line-height: 1;
+    width: 318px;
+    height: 28px;
+    background: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 15px;
+    position: relative;
+}
+
+.cv .logo .right .search .f form .text{
+    border: 0;
+    outline: none;
+    color: #3a3a3a;
+    width: 285px;
+    text-indent: 15px;
+    height: 30px;
+    line-height: 30px;
+    background: transparent;
+}
+
+.cv .logo .right .search .f form .submit{
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 3px;
+    border: 0;
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+    padding-right: 10px;
+    right: 0;
+    top: 0;
+    color: #353535;
+    font-size: 0;
+    z-index: 10;
+}
+
+.cv .logo .right .search .f form .submit:hover{
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 3px;
+    border: 0;
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+    padding-right: 10px;
+    right: 0;
+    top: 0;
+    color: #353535;
+    font-size: 0;
+    z-index: 10;
+    background: url(../img/huawei/header/serach2.png) no-repeat;
+}
+
+.lb{
+    width: 1519px;
+    height: 600px;
+    position: relative;
+}
+
+.lb .im{
+    width: 1519px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.lb .im .d{
+    width: 1519px;
+    height: 600px;
+}
+
+.lb ul{
+    display: flex;
+    list-style: none;
+    width: 200px;
+    position: absolute;
+    bottom: 14px;
+    left: 590px;
+    text-align: center;
+}
+
+.lb ul li{
+    flex: 1;
+}
+
+.lb ul li .f .s2{
+    display: none;
+}
+
+.lb ul li:hover .s1{
+    display: none;
+}
+
+.lb ul li:hover .s2{
+    display: block;
+}
+
+.sticky{
+    z-index: 10;
+    height: 50px;
+    width: 1519px;
+    position:sticky;
+    top:0px;
+    left: 0px;
+    background: url(../img/huawei/sticky/s.jpg) center center no-repeat;
+    
+}
+
+.sticky .fick{
+    display: flex;
+    width: 1080px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.sticky .fick li{
+    list-style: none;
+    flex: 1;
+    /* background-color: #fff; */
+}
+
+.sticky .fick li div{
+    /* width: 286px; */
+    height: 50px;
+}
+
+.mate30{
+    width: 1519px;
+    height: 373px;
+}
+
+.mate30 img{
+    width: 100%;
+    height: 100%;
+}
+
+.matebook{
+    width: 1519px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(197,1,39);
+}
+
+.matebook img{
+    width: 1194px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 157px;
+}
+
+.wel{
+    width: 1519px;
+    height: 200px;
+}
+
+.wel img{
+    width: 100%;
+    height: 100%;
+}
+
+.hot{
+    width: 1519px;
+    height: 582px;
+    background: url(../img/huawei/wel/h.jpg) center center no-repeat;
+    position: relative;
+}
+
+.fire{
+    width: 1519px;
+    height: 435px;
+    background: rgb(197,1,39) url(../img/huawei/wel/f.png) center center no-repeat;
+}
+
+.main1{
+    width: 1519px;
+    height: 3660px;
+    background-color: rgb(197,1,39);
+    /* position: relative; */
+}
+
+.main1 ul{
+    width: 1190px;height: 3660px;
+    list-style: none;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main1 ul .mirror_image{
+    width: 390px;
+    height: 600px;
+    position: absolute;
+    top: 2643px;
+    left: 565px;
+    background-color: royalblue;
+    z-index: 999;
+    border: 1px solid #555555;
+    overflow: hidden;
+    display: none;
+    /* z-index: 15; */
+}
+
+.main1 ul .mirror_image .inversion{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 800px;
+}
+
+.main1 ul .box{
+    width: 390px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.main1 ul .box1 .magnifier{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 2;
+    cursor: move;
+    display: none;
+    border: 1px solid #777777;
+}
+
+#l{
+    margin-right: 10px;
+    position: relative;
+}
+
+.main1 ul .box a{
+    display: block;
+    width: 390px;height: 600px;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+.main1 ul .box a .pic img{
+    width: 390px;height: 430px;
+}
+
+.main1 ul .box a .title{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    margin: 24px 15px 0 15px;
+    color: rgb(0,0,0,);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+} 
+
+.main1 ul .box a .desc{
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    margin: 5px 15px 0 15px;
+    color: rgb(102,102,102);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main1 ul .box a .sale{
+    position: absolute;
+    left: 0;
+    top: 408px;
+    background-color: rgb(129,37,180);
+    max-width: 365px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border-radius: 11px 11px 11px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main1 ul .box a .pice-wrp{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main1 ul .box a .pice-wrp .wrp{
+    color: rgb(255, 255, 255);
+    width: 110px;height: 36px;
+    border-radius: 18px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding:0px 15px;
+    background-color: rgb(237,58,61);
+}
+
+.main1 ul .box a .pice-wrp .wrp .fir{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.main1 ul .box a .pice-wrp .wrp .sec{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 122px;
+    white-space: nowrap
+}
+
+.main1 ul .box a .pice-wrp .wrp .thr{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.homer{
+    width: 1519px;height: 197px;
+    background:rgb(237,58,61) url(../img/huawei/home/h.jpg) center center no-repeat;
+}
+
+.house{
+    width: 1519px;height: 605px;
+    background:rgb(197,1,39) url(../img/huawei/house/ho.jpg) center center no-repeat;
+}
+
+.main2{
+    width: 1519px;height: 1220px;
+    background-color: rgb(197, 1, 39);
+    position: relative;
+}
+
+.main2 ul{
+    width: 1190px;height: 1220px;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main2 ul .box{
+    width: 390px;
+    height: 600px;
+    background-color: rgb(255, 255, 255)
+}
+
+.main2 ul .box a{
+    display: block;
+    width: 390px;height: 600px;
+    position: relative;
+    text-decoration: none;
+}
+
+.main2 ul .box a .pic img{
+    width: 390px;height: 430px;
+}
+
+.main2 ul .box a .title{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    margin: 24px 15px 0 15px;
+    color: rgb(0,0,0,);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+} 
+
+.main2 ul .box a .desc{
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    margin: 5px 15px 0 15px;
+    color: rgb(102,102,102);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main2 ul .box a .sale{
+    position: absolute;
+    left: 0;
+    top: 408px;
+    background-color: rgb(129,37,180);
+    max-width: 365px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 11px 11px 11px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main2 ul .box a .pice-wrp{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main2 ul .box a .pice-wrp .wrp{
+    color: rgb(255, 255, 255);
+    width: 110px;height: 36px;
+    border-radius: 18px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding:0px 15px;
+    background-color: rgb(237,58,61);
+}
+
+.main2 ul .box a .pice-wrp .wrp .fir{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.main2 ul .box a .pice-wrp .wrp .sec{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 122px;
+    white-space: nowrap
+}
+
+.main2 ul .box a .pice-wrp .wrp .thr{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.play{
+    width: 1519px;height: 197px;
+    background: url(../img/huawei/play/p.jpg) center center no-repeat;
+}
+
+.play1{
+    width: 1519px;height: 556px;
+    background:rgb(197, 1, 39) url(../img/huawei/play/p1.jpg) center center no-repeat;
+}
+
+.main3{
+    width: 1519px;height: 1220px;
+    background-color: rgb(197, 1, 39);
+    position: relative;
+}
+
+.main3 ul{
+    width: 1190px;height: 1220px;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main3 ul .box{
+    width: 390px;
+    height: 600px;
+    background-color: rgb(255, 255, 255)
+}
+
+.main3 ul .box a{
+    display: block;
+    width: 390px;height: 600px;
+    position: relative;
+    text-decoration: none;
+}
+
+.main3 ul .box a .pic img{
+    width: 390px;height: 430px;
+}
+
+.main3 ul .box a .title{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    margin: 24px 15px 0 15px;
+    color: rgb(0,0,0,);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+} 
+
+.main3 ul .box a .desc{
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    margin: 5px 15px 0 15px;
+    color: rgb(102,102,102);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main3 ul .box a .sale{
+    position: absolute;
+    left: 0;
+    top: 408px;
+    background-color: rgb(129,37,180);
+    max-width: 365px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 11px 11px 11px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main3 ul .box a .pice-wrp{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main3 ul .box a .pice-wrp .wrp{
+    color: rgb(255, 255, 255);
+    width: 110px;height: 36px;
+    border-radius: 18px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding:0px 15px;
+    background-color: rgb(237,58,61);
+}
+
+.main3 ul .box a .pice-wrp .wrp .fir{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.main3 ul .box a .pice-wrp .wrp .sec{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 122px;
+    white-space: nowrap
+}
+
+.main3 ul .box a .pice-wrp .wrp .thr{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.study{
+    width: 1519px;height: 194px;
+    background: url(../img/huawei/study/s.jpg) center center no-repeat;
+}
+
+.main4{
+    width: 1519px;height: 1220px;
+    background-color: rgb(197, 1, 39);
+    position: relative;
+}
+
+.main4 ul{
+    width: 1190px;height: 1220px;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main4 ul .box{
+    width: 390px;
+    height: 600px;
+    background-color: rgb(255, 255, 255)
+}
+
+.main4 ul .box a{
+    display: block;
+    width: 390px;height: 600px;
+    position: relative;
+    text-decoration: none;
+}
+
+.main4 ul .box a .pic img{
+    width: 390px;height: 430px;
+}
+
+.main4 ul .box a .title{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    margin: 24px 15px 0 15px;
+    color: rgb(0,0,0,);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+} 
+
+.main4 ul .box a .desc{
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    margin: 5px 15px 0 15px;
+    color: rgb(102,102,102);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main4 ul .box a .sale{
+    position: absolute;
+    left: 0;
+    top: 408px;
+    background-color: rgb(129,37,180);
+    max-width: 365px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 11px 11px 11px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main4 ul .box a .pice-wrp{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main4 ul .box a .pice-wrp .wrp{
+    color: rgb(255, 255, 255);
+    width: 110px;height: 36px;
+    border-radius: 18px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding:0px 15px;
+    background-color: rgb(237,58,61);
+}
+
+.main4 ul .box a .pice-wrp .wrp .fir{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.main4 ul .box a .pice-wrp .wrp .sec{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 122px;
+    white-space: nowrap
+}
+
+.main4 ul .box a .pice-wrp .wrp .thr{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.sport{
+    width: 1519px;height: 195px;
+    background:rgb(197, 1, 39) url(../img/huawei/sport/s.jpg) center center no-repeat;
+}
+
+.main5{
+    width: 1519px;height: 1220px;
+    background-color: rgb(197, 1, 39);
+    position: relative;
+}
+
+.main5 ul{
+    width: 1190px;height: 1220px;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main5 ul .box{
+    width: 390px;
+    height: 600px;
+    background-color: rgb(255, 255, 255)
+}
+
+.main5 ul .box a{
+    display: block;
+    width: 390px;height: 600px;
+    position: relative;
+    text-decoration: none;
+}
+
+.main5 ul .box a .pic img{
+    width: 390px;height: 430px;
+}
+
+.main5 ul .box a .title{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    margin: 24px 15px 0 15px;
+    color: rgb(0,0,0,);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+} 
+
+.main5 ul .box a .desc{
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    margin: 5px 15px 0 15px;
+    color: rgb(102,102,102);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main5 ul .box a .sale{
+    position: absolute;
+    left: 0;
+    top: 408px;
+    background-color: rgb(129,37,180);
+    max-width: 365px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 11px 11px 11px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main5 ul .box a .pice-wrp{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main5 ul .box a .pice-wrp .wrp{
+    color: rgb(255, 255, 255);
+    width: 110px;height: 36px;
+    border-radius: 18px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding:0px 15px;
+    background-color: rgb(237,58,61);
+}
+
+.main5 ul .box a .pice-wrp .wrp .fir{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.main5 ul .box a .pice-wrp .wrp .sec{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 122px;
+    white-space: nowrap
+}
+
+.main5 ul .box a .pice-wrp .wrp .thr{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.healthy{
+    width: 1519px;height: 195px;
+    background:rgb(197, 1, 39) url(../img/huawei/heathy/he.jpg) center center no-repeat;
+}
+
+.main6{
+    width: 1519px;height: 2440px;
+    background-color: rgb(197, 1, 39);
+    position: relative;
+}
+
+.main6 ul{
+    width: 1190px;height: 2440px;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main6 ul .box{
+    width: 390px;
+    height: 600px;
+    background-color: rgb(255, 255, 255)
+}
+
+.main6 ul .box a{
+    display: block;
+    width: 390px;height: 600px;
+    position: relative;
+    text-decoration: none;
+}
+
+.main6 ul .box a .pic img{
+    width: 390px;height: 430px;
+}
+
+.main6 ul .box a .title{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    margin: 24px 15px 0 15px;
+    color: rgb(0,0,0,);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+} 
+
+.main6 ul .box a .desc{
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    margin: 5px 15px 0 15px;
+    color: rgb(102,102,102);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main6 ul .box a .sale{
+    position: absolute;
+    left: 0;
+    top: 408px;
+    background-color: rgb(129,37,180);
+    max-width: 365px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 11px 11px 11px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main6 ul .box a .pice-wrp{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main6 ul .box a .pice-wrp .wrp{
+    color: rgb(255, 255, 255);
+    width: 110px;height: 36px;
+    border-radius: 18px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding:0px 15px;
+    background-color: rgb(237,58,61);
+}
+
+.main6 ul .box a .pice-wrp .wrp .fir{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.main6 ul .box a .pice-wrp .wrp .sec{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 122px;
+    white-space: nowrap
+}
+
+.main6 ul .box a .pice-wrp .wrp .thr{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.luck{
+    width: 1519px;height: 250px;
+    background: rgb(197,1,39) url(../img/huawei/luck/l.jfif) center center no-repeat;
+}
+
+.lucky{
+    width: 1519px;height: 216px;
+    background: url(../img/huawei/luck/lucky.jpg) center center no-repeat;
+}
+
+.main7{
+    width: 1519px;height: 772px;
+    background:url(../img/huawei/main7/1.jpg) center center no-repeat;
+    position: relative;
+}
+
+.main7 ul{
+    width: 1200px;height: 743px;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main7 ul .box{
+    width: 290px;height: 368px;
+}
+
+.main7 ul .box .b{
+    display: block;
+    width: 290px;height: 368px;
+}
+
+.main7 ul .special-box{
+    width: 432px;height: 373px;
+}
+
+.main7 ul .special-box .bs{
+    display: block;
+    width: 432px;height: 373px;
+}
+
+#r{
+    margin-right: 10px;
+}
+
+.fp{
+    width: 1519px;height: 197px;
+    background:rgb(197,1,39) url(../img/huawei//fp/f.jpg) center center no-repeat;
+}
+
+.main8{
+    width: 1519px;height: 575px;
+    position: relative;
+    background: url(../img/huawei/main8/bcg.jpg) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.main8 .lucker{
+    width: 1200px;height: 508px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.main8 .lucker .lu1{
+    width: 715px;height: 508px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main8 .lucker .lu1 .box{
+    width: 220px;height: 160px;
+    position: relative;
+}
+
+.main8 .lucker .lu1 .box a{
+    display: block;
+}
+
+.main8 .lucker .lu1 .box a img{
+    width: 100%;height: 100%;
+}
+
+.main8 .lucker .lu1 .box .sp{
+    width: 220px;height: 160px;
+    position: relative;
+}
+
+.main8 .lucker .lu1 .box .sp .special{
+    width: 160px;height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#w1{
+    margin-right: 15px;
+}
+
+.main8 .lucker .lu2{
+    flex: 1;
+    position: relative;
+}
+
+.main8 .lucker .lu2 .top{
+    width: 267px;height: 136px;
+    position: absolute;
+    top: 90px;
+    left: 39px;
+}
+
+.main8 .lucker .lu2 .top .font{
+    line-height: 125%;
+    font-family: "微软雅黑";
+    font-size: 14.0px;
+    white-space: normal;
+}
+
+.main8 .lucker .lu2 .top .more{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 14px;
+    color: #ea380f;
+    cursor: pointer
+}
+
+.main8 .lucker .lu2 h1{
+    font-size: 22px;
+    font-family: Tahoma,Arial;
+    font-weight: 800;
+    width: 210px;
+    height: 36px;
+    position: absolute;
+    top: 266px;
+    left: 100px;
+    color: rgb(187,1,25);
+    background-color: #fff;
+}
+
+.main8 .lucker .lu2 .lighting{
+    position: absolute;
+    top: 330px;
+    left: 155px;
+}
+
+.main8 .lucker .lu2 .count_down{
+    position: absolute;
+    top: 440px;
+    left: 35px;
+    display: flex;
+    width: 280px;
+}
+
+.main8 .lucker .lu2 .count_down .timer{
+    width: 30px;
+    height: 30px;
+    flex: 1;
+    color: #fff;
+    background-color: rgb(187,1,25);
+    margin-right: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.detail{
+    width: 1519px;height: 138px;
+}
+
+.detail img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 1519px;height: 397px;
+    background-color: #fff;
+}
+
+.footer .slogan{
+    width: 1519px;height: 82px;
+}
+
+.footer .slogan .slo{
+    width: 1200px;height: 40px;
+    margin: 0 auto;
+    padding: 22px 0 20px;
+    border-bottom: 1px solid rgb(229,229,229);
+}
+
+.footer .slogan .slo ul{
+    list-style: none;
+    display:flex;
+}
+
+.footer .slogan .slo ul li{
+    flex: 1;
+}
+
+.footer .slogan .slo ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #333333;
+    display: block;
+    position: relative;
+    top: -38px;
+    left: 50px;
+}
+
+.serve{
+    width: 1519px;height: 211px;
+    position: relative;
+}
+
+.serve .service{
+    width: 1200px;height: 162px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    padding-bottom: 15px;
+}
+
+.serve .service .left{
+    width: 922px;
+    display: flex;
+    border-right: 1px solid rgb(229,229,229);
+}
+
+.serve .service .left .box{
+    flex: 1;
+}
+
+.serve .service .left ul{
+    list-style: none;
+}
+
+.serve .service .left ul .special{
+    font-size: 14px;
+    padding-bottom: 7px;
+    color: #333;
+    display: block;
+    border-left: none;
+    padding-left: 0;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.serve .service .left ul li a{
+    text-decoration: none;
+    line-height: 22px;
+    color: #777777;
+    font:12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+.serve .service .left ul li a:hover{
+    color:rgb(202,20,29)
+}
+
+.serve .service .right{
+    flex:1;
+    position: relative;
+}
+
+.serve .service .right .top{
+    width: 279px;height: 103px;
+    /* background-color: rgb(202,21,143); */
+}
+
+.serve .service .right .top .title{
+    font-size: 22px;
+    font-weight: bolder;
+    padding-top: 7px;
+    color: #333;
+    text-align: center;
+}
+
+.serve .service .right .top .phone{
+    line-height: 22px;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+
+.serve .service .right .top .last{
+    width: 170px;height: 34px;
+    background-color: #000;
+    border-radius: 25px;
+    margin: 12px 0px 0px 50px;
+    position: relative;
+}
+
+.serve .service .right .top .last img{
+    width: 23px;height: 20px;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+}
+
+.serve .service .right .top .last p{
+    font-size: 14px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+}
+
+.serve .service .right .bottom{
+    width: 250px;height: 24px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.serve .service .right .bottom .box1{
+    width: 92px;height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.serve .service .right .bottom .box1 h2{
+    font-size: 14px;
+    color: #333;
+}
+
+.serve .service .right .bottom .box2{
+    width: 24px;height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 92px;
+}
+
+.serve .service .right .bottom .box2:hover .act{
+    display: none;
+}
+
+.serve .service .right .bottom .box2:hover .hor{
+    display: block;
+}
+
+.serve .service .right .bottom .box2:hover .tow{
+    display: block;
+}
+
+.serve .service .right .bottom .box2 .hor{
+    display: none;
+}
+
+.serve .service .right .bottom .box2 .tow{
+    display: none;
+    width: 108px;height: 108px;
+    position: absolute;
+    top: 24px;
+    background: url(../img/huawei/box2/tow.jpg) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+#lug{
+    cursor: pointer;
+}
+
+.serve .service .right .bottom .box3{
+    width: 24px;height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 118px;
+    margin-left: 5px;
+}
+
+.serve .service .right .bottom .box3 .hor{
+    display: none;
+}
+
+.serve .service .right .bottom .box3:hover .act{
+    display: none;
+}
+
+.serve .service .right .bottom .box3:hover .hor{
+    display: block;
+}
+
+.serve .service .right .bottom .box4{
+    width: 24px;height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 150px;
+    margin-left: 5px;
+}
+
+.serve .service .right .bottom .box4 .hor{
+    display: none;
+}
+
+.serve .service .right .bottom .box4:hover .act{
+    display: none;
+}
+
+.serve .service .right .bottom .box4:hover .hor{
+    display: block;
+}
+.serve .service .right .bottom .box5{
+    width: 24px;height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 185px;
+    margin-left: 5px;
+}
+
+.serve .service .right .bottom .box5 .hor{
+    display: none;
+}
+
+.serve .service .right .bottom .box5:hover .act{
+    display: none;
+}
+
+.serve .service .right .bottom .box5:hover .hor{
+    display: block;
+}
+
+.tl{
+    width: 1519px;height: 104px;
+    position: relative;
+}
+
+.tl .cen{
+    width: 1200px;height: 60px;
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.tl .cen .li1{
+    width: 82;
+    padding-top: 6px;
+}
+
+.tl .cen .li1 img{
+    margin-right:20px;
+    width: 65px;height: 20px;
+}
+
+.tl .cen .li2{
+    width: 880px;
+}
+
+.tl .cen .li2 ul{
+    list-style: none;
+}
+
+.tl .cen .li2 ul li{
+    display: inline-block;
+}
+
+.tl .cen .li2 ul li p a{
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.tl .cen .li2 ul li a{
+    color: rgb(119,119,119);
+}
+
+.tl .cen .li2 ul li a:hover{
+    color: red;
+}
+
+.tl .cen .li2 a{
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 3px;
+    font-size: 12px;
+    color: #a4a4a4;
+    text-decoration: none;
+}
+
+.tl .cen .li2 a:hover{
+    color: red;
+}
+
+.tl .cen .li2 p{
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 3px;
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+.tl .cen .li3{
+    width: 47px;
+    flex: 1;
+    position: relative;
+}
+
+.tl .cen .li3 img{
+    position: absolute;
+    top: 0px;right: 0px;
+}
